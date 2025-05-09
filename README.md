@@ -1,6 +1,6 @@
 # PyArrow Parquet Compactor Demo
 
-This is a demo repository for my blog post [“When Small Parquet Files Become a Big Problem”](#). It contains a simple, reproducible setup showing how to compact many small Parquet files using [PyArrow](https://arrow.apache.org/docs/python/), both with and without batching.
+This is a demo repository for my blog post [“When Small Parquet Files Become a Big Problem”](https://www.datobra.com/when-small-parquet-files-become-a-big-problem-and-how-i-ended-up-writing-a-compactor-in-pyarrow/). It contains a simple, reproducible setup showing how to compact many small Parquet files using [PyArrow](https://arrow.apache.org/docs/python/), both with and without batching.
 
 The demo is based on the January 2025 NYC Yellow Taxi trip dataset, which has been split into 696 small Parquet files to simulate a streaming pipeline that writes frequently.
 
